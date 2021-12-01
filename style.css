@@ -1,0 +1,40 @@
+@import url ('https://fonts.googleapis.com/css2? family = PT + Serif & display = swap');
+
+body{
+		background-color: #aa9977;
+		text-align: center;
+	}
+#resultado{
+		font: normal 35px 'PT Serif', serif;
+		background: white;
+		text-align: right;
+		height: 40px;
+		width: 230px;
+		color: black;
+		margin: 2px;
+	}
+section{
+		font: normal 25px 'PT Serif', serif;		
+		background-color: black;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		color: white;
+		padding: 10px;
+		border-radius: 15px;
+		
+	}
+.botao{
+		background: rgb(31,31,31);
+		height: 50px;
+		width: 50px;
+		font-size: 25px;
+		margin: 3px;
+		cursor: pointer;
+		border: none;
+		color: white;
+	}	
+.botao:hover{
+		background: black;
+}
